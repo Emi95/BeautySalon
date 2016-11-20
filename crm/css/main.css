@@ -1,0 +1,79 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+.head{
+	height: 50px;
+	background: #3C8DBC;
+}
+.head span{
+	color:white;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: right;
+}
+header ul{
+	padding: 0px;
+}
+.panel{
+	height: 900px;
+	background-color: #222D32;
+}
+.panel li{
+	color: #68AACE;
+	list-style: none;
+	height: 40px;
+	line-height: 40px;
+	font-size: 100%;
+	border-bottom: 1px solid #00C0EF;
+}
+.panel a{
+	color:#B8C7C4;
+	text-decoration: none;
+}
+.panel li > i{
+	color:white;
+}
+.panel ul{
+	padding: 0px;
+}
+main{
+	height: 900px;
+	background-color: #ECF0F5;
+}
+.admin input,label{
+	display: block;
+	width: 300px;
+	height: 40px;
+	font-size: 20px;
+	margin: 10px;
+}
+.emp{
+	font-size: 23px;
+}

@@ -1,0 +1,57 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+header li{
+    list-style: none;
+    
+}
+
+header li{
+    background-color: antiquewhite;
+    text-align: center;
+    border-left: 1px solid white;
+    height: 40px;
+    padding-top:7px;
+}
+header li:hover{
+    background-color: blue; 
+}
+header ul{
+    margin:0px; 
+}
+.bir{
+    height: 400px;
+    background-color: red;
+}
+.eki{
+    height: 400px;
+    background-color: yellow;
+}
+
